@@ -6,6 +6,7 @@ do
     if [ $path ]
     then
         ls -l "$path"
+        ls -i "$path"
     else
         echo "File not found: $filename"    
     fi
